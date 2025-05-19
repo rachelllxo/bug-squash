@@ -1,40 +1,39 @@
-🌟 Project Name: BugSquash 
-A multi-agent Python-based system that automatically finds, fixes, and reviews bugs in Python code.
+🌟 Project Name: BugSquash - A multi-agent Python-based system that automatically finds, fixes, and reviews bugs in Python code.
 Built with Google Cloud Pub/Sub, Firestore, and OpenAI API — designed to improve code quality effortlessly.
 
-📌 Table of Contents
-About the Project
-Tech Stack
-Features
-Installation
-Usage
-Folder Structure
-Contributing
-License
-Author
+📌 Table of Contents:
+About the Project,
+Tech Stack,
+Features,
+Installation,
+Usage,
+Folder Structure,
+Contributing,
+License,
+Author.
 
 📖 About the Project
 BugSquash is an AI-powered bug-fixing and reviewing system that uses a multi-agent architecture. It:
-Accepts Python code as input
-Detects logical and syntactic bugs
-Fixes issues and provides explanations
-Reviews the final output and suggests improvements
+Accepts Python code as input,
+Detects logical and syntactic bugs,
+Fixes issues and provides explanations,
+Reviews the final output and suggests improvements,
 The system is designed to work in real-time with message queues (Google Pub/Sub) and cloud-based storage (Firestore), enabling scalable and modular processing of tasks.
 
-🛠 Tech Stack
-Language: Python 3.10+
-Cloud Platform: Google Cloud (Pub/Sub, Firestore)
-AI/LLM: OpenAI GPT-4 API
-Environment: Docker (optional), local virtualenv
-Other: Flask (if web interface), Firestore Emulator (for local testing)
+🛠 Tech Stack:
+Language: Python 3.10+,
+Cloud Platform: Google Cloud (Pub/Sub, Firestore),
+AI/LLM: OpenAI GPT-4 API,
+Environment: Docker (optional), local virtualenv,
+Other: Flask (if web interface), Firestore Emulator (for local testing).
 
 ✨ Features
-📥 Accepts Python files via Pub/Sub
-🐞 Analyzes code for bugs using GPT-4
-🔧 Suggests and applies bug fixes
-✅ Reviews final code with reasoning
-☁️ Stores original and modified files in Firestore
-🔄 Fully asynchronous pipeline with modular agents
+📥 Accepts Python files via Pub/Sub,
+🐞 Analyzes code for bugs using GPT-4,
+🔧 Suggests and applies bug fixes,
+✅ Reviews final code with reasoning,
+☁️ Stores original and modified files in Firestore,
+🔄 Fully asynchronous pipeline with modular agents,
 
 📦 Installation
 bash
